@@ -1,0 +1,44 @@
+{
+  "alumnos": [
+    {
+      "id": 1,
+      "apellidos": "Pérez",
+      "nombres": "Ratón",
+      "documentoTipo": "DNI",
+      "documentoNro": "23456789",
+      "domicilio": "Moreno 1234",
+      "telefono": "2281456789",
+      "fecNac": "1635444210427"
+    }
+  ],
+  "cursos": [
+    {
+      "id": 1000,
+      "nombre": "Programador Web",
+      "fechaDesde": "1614567600000",
+      "fechaHasta": "1638241200000",
+      "horarios": [
+        {
+          "dia": "lunes",
+          "desdeHora": "14:30",
+          "hastaHora": "17:30"
+        },
+        {
+          "dia": "miércoles",
+          "desdeHora": "14:30",
+          "hastaHora": "17:30"
+        }
+      ],
+      "instructores": [101, 102],
+      "alumnos": [10001, 10002, 10003]
+    }
+  ],
+  "instructores": [
+    {
+      "id": 101,
+      "apellidos": "Altamiranda",
+      "nombres": "Claudio",
+      "telefono": "2281987654"
+    }
+  ]
+}

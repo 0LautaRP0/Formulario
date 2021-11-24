@@ -1,0 +1,37 @@
+RESTFul APIs
+
+URLs 127.0.0.1:3000/alumnos/1
+
+Recursos
+
+127.0.0.1:3000/alumnos/nextPage // mal
+127.0.0.1:3000/alumnos/pagina/2 // bien
+
+Las acciones se indican siempre con los verbos HTTP
+GET     consulta/visualización
+POST    crear/alta
+DELETE  eliminar/baja
+UPDATE  modificar/editar (total)
+PATCH   modificar/editar (parcial)
+
+Formatos de respuesta (estándares)
+JSend
+  {
+    "status": "success",    // "error"
+    "data": {
+      ... información
+    }
+  }
+
+Otros formatos de respuesta:
+  OAuth
+  JSOPN:API 
+
+GET alumnos/1         
+GET alumnos
+POST alumnos
+UPDATE alumnos/1 
+DELETE alumnos/1 
+
+
+

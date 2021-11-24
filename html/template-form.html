@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Práctica 4</title>
+    <!-- <script defer src="js/script.js"></script> -->
+    <style>
+      {%bootstrap%}
+    </style>
+    <!-- <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    /> -->
+  </head>
+  <body>
+    <div class="container">
+      <div class="container text-center border my-3 p-2">
+        <h1 class="display-1">Práctica nº 4</h1>
+        <h2>Gestión de una lista con un formulario</h2>
+      </div>
+
+      <!-- formulario -->
+      <div class="container border my-3 p-3">
+        <h2>Alumnos</h2>
+        <form class="form-alumnos" action="#">
+          <p>ID: <span class="lbl-id"></span></p>
+          <div class="form-group py-2">
+            <label for="email">Email:</label>
+            <input
+              type="email"
+              id="txt-email"
+              class="form-control"
+              placeholder="Ingrese el email"
+              name="email"
+            />
+          </div>
+          <div class="form-group py-2">
+            <label for="apellido">Apellido</label>
+            <input
+              type="text"
+              id="txt-apellido"
+              class="form-control"
+              placeholder="Ingrese el apellido"
+              name="apellido"
+            />
+          </div>
+          <div class="form-group py-2">
+            <label for="nombre">Nombre</label>
+            <input
+              type="text"
+              id="txt-nombre"
+              class="form-control"
+              placeholder="Ingrese el nombre"
+              name="nombre"
+            />
+          </div>
+          <button type="button" class="btn-guardar btn btn-primary">
+            Guardar
+          </button>
+          <button type="button" class="btn-actualizar btn btn-primary">
+            Actualizar
+          </button>
+          <button type="button" class="btn-limpiar btn btn-primary">
+            Limpiar
+          </button>
+        </form>
+      </div>
+
+      <!-- lista -->
+      <div class="container my-3 border lista-alumnos">
+        <table class="table table-striped">
+          <thead>
+            <th>ID</th>
+            <th>Email</th>
+            <th>Apellido</th>
+            <th>Nombre</th>
+          </thead>
+          <tbody>
+            {%alumnos%}
+          </tbody>
+        </table>
+        <!-- <table class="table my-2 table-striped table-hover">
+          <thead>
+            <tr class="bg-dark text-light">
+              <th>Nombre</th>
+              <th>Apellido</th>
+              <th>Email</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody class="filas-alumnos">
+             <tr data-id="1">
+              <td class="celda-nombre">John</td>
+              <td class="celda-apellido">Doe</td>
+              <td class="celda-email">john@example.com</td>
+              <th><button class="close">&times;</button></th>
+            </tr> 
+          </tbody>
+        </table> -->
+      </div>
+    </div>
+    <!-- javascript -->
+  </body>
+</html>

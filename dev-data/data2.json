@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "email": "ejemplo@gmail.com",
+    "apellido": "Azul",
+    "nombre": "red"
+  },
+  {
+    "id": 2,
+    "email": "ejemplo@gmail.com",
+    "apellido": "Olavarría",
+    "nombre": "green"
+  },
+  {
+    "id": 3,
+    "email": "ejemplo@gmail.com",
+    "apellido": "Tandil",
+    "nombre": "blue"
+  },
+  {
+    "id": 4,
+    "email": "ejemplo@gmail.com",
+    "apellido": "Rauch",
+    "nombre": "cyan"
+  },
+  {
+    "id": 5,
+    "email": "ejemplo@gmail.com",
+    "apellido": "Las Flores",
+    "nombre": "magenta"
+  },
+  {
+    "id": 6,
+    "email": "ejemplo@gmail.com",
+    "apellido": "Alvear",
+    "nombre": "yellow"
+  },
+  {
+    "id": 7,
+    "email": "ejemplo@gmail.com",
+    "apellido": "Tapalque",
+    "nombre": "black"
+  },
+  {
+    "id": 8,
+    "email": "ejemplo@gmail.com",
+    "apellido": "Bolívar",
+    "nombre": "lightblue"
+  },
+  {
+    "id": 9,
+    "email": "ejemplo@gmail.com",
+    "apellido": "Laprida",
+    "nombre": "gray"
+  },
+  {
+    "id": 10,
+    "email": "ejemplo@gmail.com",
+    "apellido": "Lamadrid",
+    "nombre": "orange"
+  },
+  {
+    "id": 11,
+    "email": "ejemplo@gmail.com",
+    "apellido": "Juárez",
+    "nombre": "violet"
+  }
+]
